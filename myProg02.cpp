@@ -46,9 +46,9 @@ int main(int argc, char *argv[])
   int ducks = animals - not_ducks;
 
   cout << "Report for "<< file_name << ":" << endl
-       << "   " << "Animals count:" << "    " << animals << endl
-       << "   " << "Duck count:" << "       " << ducks << endl
-       << "   " << "Non duck count:" << "   " << not_ducks << endl;
+       << "   " << "Animals count:" << "   " << animals << endl
+       << "   " << "Duck count:" << "      " << ducks << endl
+       << "   " << "Non duck count:" << "  " << not_ducks << endl;
 
   return 0;
 }
